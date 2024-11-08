@@ -18,3 +18,14 @@ console.log(sum(5, 9)); // 14
 console.log(sum(511, 9)); // 520
 console.log(sum(5, 99)); //  104
 console.log(sum(7, 966)); // 973
+
+// Arrow functions
+
+const sums = (oje1, oje2) => {
+  return oje1 * oje2;
+};
+console.log(sums(44, 5)); // 220
+console.log(sums(4, 15)); // 60
+console.log(sums(34, 5)); // 170
+console.log(sums(99, 5)); // 495
+console.log(sums(66, 5)); // 330
